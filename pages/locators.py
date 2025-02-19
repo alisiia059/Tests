@@ -58,5 +58,4 @@ class BusketPageLocators:
 
 # moya strochka print(MainPageLocators.BUTTONS_BOOKS) дададададдааддадададааддададададададад
 # кста
-# ВСЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕЁЁЁЁЁЁЁЁЁ
 # рЕАл slaaaay
