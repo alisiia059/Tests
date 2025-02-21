@@ -6,8 +6,6 @@ class BusketPage (BasePage):
 
     def shipping_address(self):
         """
-        _summary_
-
         Fills in all fields in the delivery order form with provided values and submits it.
 
         Args:
@@ -49,8 +47,6 @@ class BusketPage (BasePage):
 
     def proceed_checkout(self):
         """
-        _summary_
-
         Clicks the 'Proceed to Checkout' button to move to the next checkout step.
 
         Args:
@@ -65,8 +61,6 @@ class BusketPage (BasePage):
 
     def update(self, value):
         """
-        _summary_
-
         Updates the quantity of an item in the basket and clicks the 'Update' button.
 
         Args:

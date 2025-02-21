@@ -7,8 +7,6 @@ from selenium.webdriver.support.ui import Select
 class BasePage:
     def __init__ (self, browser: Chrome, url: str):
         """
-        _summary_
-
         Initializes the BasePage object with the given browser and URL.
 
         Args:
@@ -23,8 +21,6 @@ class BasePage:
      
     def open (self):
         """
-        _summary_
-
         Opens the page using the URL provided during initialization.
 
         Args:
@@ -37,8 +33,6 @@ class BasePage:
     
     def is_present (self, by, value) -> WebElement:
         """
-        _summary_
-
         Checks if an element is present on the page by a given locator 
         (by, value) and returns the element if found.
 
@@ -65,8 +59,6 @@ class BasePage:
     
     def input_text_search_field(self, text):
         """
-        _summary_
-
         Inputs the provided text into a search field and clicks the search button.
 
         Args:
@@ -84,8 +76,6 @@ class BasePage:
     
     def view_busket(self):
         """
-        _summary_
-
         Clicks the 'View Basket' button to open the bucket page.
 
         Args:
@@ -100,8 +90,6 @@ class BasePage:
 
     def click_login(self):
         """
-        _summary_
-
         Clicks the 'Login' button to navigate to the login page.
 
         Args:
@@ -116,8 +104,6 @@ class BasePage:
     
     def choose_language(self, language):
         """
-        _summary_
-
         Selects the specified language from a dropdown and applies the language change.
 
         Args:
@@ -136,8 +122,6 @@ class BasePage:
 
     def get_current_url(self):
         """
-        _summary_
-
         Returns the current URL of the page.
 
         Args:

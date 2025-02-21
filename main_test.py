@@ -11,8 +11,6 @@ import time
 @pytest.mark.basepage
 def test_random(driver):
     """
-    _summary_
-
     Test for the base page: Open the page, choose a language, and search for a term.
 
     Args:
@@ -29,8 +27,6 @@ def test_random(driver):
 @pytest.mark.mainpage
 def test_click_2book(driver): 
     """
-    _summary_
-
     Test for the main page: Check buttons and click the 2nd book button.
 
     Args:
@@ -47,8 +43,6 @@ def test_click_2book(driver):
 @pytest.mark.productpage
 def test_buy_book_write_review(driver):
     """
-    _summary_
-
     Test for product page: Add book to the basket and write a review.
 
     Args:
@@ -64,8 +58,6 @@ def test_buy_book_write_review(driver):
 
 def random_email():
     """
-    _summary_
-
     Generates a random email address for user registration.
 
     Args:
@@ -91,8 +83,6 @@ def random_email():
 
 def random_password():
     """
-    _summary_
-
     Generates a random password for user registration.
 
     Args:
@@ -119,8 +109,6 @@ def random_password():
 @pytest.mark.loginpage
 def test_register_user(driver):
     """
-    _summary_
-
     Test for user registration: Create a new user with a random email and password.
 
     Args:
@@ -149,8 +137,6 @@ def test_register_user(driver):
 @pytest.mark.busketpage
 def test_make_order(driver):
     """
-    _summary_
-
     Test for making an order: Add a book to the basket and proceed to checkout.
 
     Args:

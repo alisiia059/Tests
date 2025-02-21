@@ -5,8 +5,6 @@ class ProductPage (BasePage):
 
     def write_review_buttton(self):
         """
-        _summary_
-
         Clicks the 'Write Review' button on the product page.
 
         Args:
@@ -21,8 +19,6 @@ class ProductPage (BasePage):
 
     def add_busket_buttton(self):
         """
-        _summary_
-
         Clicks the 'Add to Basket' button to add the product to the basket.
 
         Args:
@@ -37,8 +33,6 @@ class ProductPage (BasePage):
 
     def title_field(self, title):
         """
-        _summary_
-
         Inputs the review title into the review title field.
 
         Args:
@@ -53,8 +47,6 @@ class ProductPage (BasePage):
     
     def body_field(self, body):
         """
-        _summary_
-
         Inputs the review body into the review body field.
 
         Args:
@@ -69,8 +61,6 @@ class ProductPage (BasePage):
 
     def name_field(self, name):
         """
-        _summary_
-
         Inputs the name into the review name field.
 
         Args:
@@ -85,8 +75,6 @@ class ProductPage (BasePage):
     
     def email_field(self, email):
         """
-        _summary_
-
         Inputs the email into the review email field.
 
         Args:
@@ -101,8 +89,6 @@ class ProductPage (BasePage):
 
     def save_review_buttton(self):
         """
-        _summary_
-
         Clicks the 'Save Review' button to submit the written review.
 
         Args:
@@ -117,8 +103,6 @@ class ProductPage (BasePage):
     
     def add_book_busket(self):
         """
-        _summary_
-
         Adds the product to the basket, and verifies that the product's name 
         and price match between the product page and the basket page.
 
@@ -139,8 +123,6 @@ class ProductPage (BasePage):
 
     def write_review(self, title, body, name, email):
         """
-        _summary_
-
         Writes a product review by filling in the title, body, name, and email, 
         then submits the review.
 

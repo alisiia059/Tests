@@ -4,8 +4,6 @@ from .locators import MainPageLocators as mpl
 class MainPage (BasePage):
     def check_b4ttons(self):
         """
-        _summary_
-
         Verifies that all the buttons in the list (of 5 first books) are present on the page.
 
         Args:
@@ -20,8 +18,6 @@ class MainPage (BasePage):
         
     def click_button(self, index):
         """
-        _summary_
-
         Clicks the button at the specified index in the book list.
 
         Args:
@@ -34,8 +30,6 @@ class MainPage (BasePage):
         
     def check_messsage(self):
         """
-        _summary_
-
         Verifies that the registration message is present on the page.
 
         Args:

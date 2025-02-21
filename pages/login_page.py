@@ -4,8 +4,6 @@ from .locators import LogInLocators as lil
 class LogInPage (BasePage):
     def login_email_field(self, email):
         """
-        _summary_
-
         Inputs the given email into the email field to log in.
 
         Args:
@@ -20,8 +18,6 @@ class LogInPage (BasePage):
 
     def login_password_field(self, password):
         """
-        _summary_
-
         Inputs the given password into the password field to log in.
 
         Args:
@@ -36,8 +32,6 @@ class LogInPage (BasePage):
 
     def register_email_field(self, email):
         """
-        _summary_
-
         Inputs the given email into the email field to register.
 
         Args:
@@ -52,8 +46,6 @@ class LogInPage (BasePage):
 
     def register_password_field(self, password):
         """
-        _summary_
-
         Inputs the given password into the password field to register.
 
         Args:
@@ -68,8 +60,6 @@ class LogInPage (BasePage):
 
     def register_password_field2(self, password):
         """
-        _summary_
-
         Inputs the given password into the second registration password field for confirmation (it must be the same as the first option)
 
         Args:
@@ -84,8 +74,6 @@ class LogInPage (BasePage):
 
     def login_buttton(self):
         """
-        _summary_
-
         Clicks the 'Login' button to submit the login form.
 
         Args:
@@ -100,8 +88,6 @@ class LogInPage (BasePage):
 
     def register_buttton(self):
         """
-        _summary_
-
         Clicks the 'Register' button to submit the registration form.
 
         Args:
@@ -116,8 +102,6 @@ class LogInPage (BasePage):
 
     def forgot_password_buttton(self):
         """
-        _summary_
-
         Clicks the 'Forgot Password' button to navigate to the password recovery page.
 
         Args:
